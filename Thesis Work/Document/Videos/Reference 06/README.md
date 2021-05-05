@@ -1,4 +1,4 @@
-#Common Mode Choke Operation
+Understanding Common Mode and Differential Mode Noise
 
 
-[![EMC Filter Design Part 6]( https://youtu.be/cxPAGWTiNSc)](https://www.youtube.com/watch?v=cxPAGWTiNSc&t=2s)
+[![EMC Filter Design Part 1]( https://youtu.be/JQkNqY0I02Y)](https://www.youtube.com/watch?v=JQkNqY0I02Y&t=1s)
