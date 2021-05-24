@@ -1,3 +1,0 @@
-[22296]  Error log for : Time Domain Simulation.DS12.dsf
-	[22296]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[22296]	Unable to acquire file lock for the data set

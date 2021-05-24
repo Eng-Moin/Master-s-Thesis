@@ -1,0 +1,5 @@
+[3752]  Error log for : Time domain.DS6.dsf
+	[3752]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[3752]	Unable to acquire file lock for the data set
+	[3752]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[3752]	Unable to acquire file lock for the data set
