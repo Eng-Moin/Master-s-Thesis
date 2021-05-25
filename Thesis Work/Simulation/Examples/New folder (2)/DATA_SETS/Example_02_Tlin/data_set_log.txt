@@ -1,0 +1,7 @@
+[7364]  Error log for : TD.DS3.dsf
+	[7364]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[7364]	Unable to acquire file lock for the data set
+	[7364]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[7364]	Unable to acquire file lock for the data set
+	[7364]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[7364]	Unable to acquire file lock for the data set
