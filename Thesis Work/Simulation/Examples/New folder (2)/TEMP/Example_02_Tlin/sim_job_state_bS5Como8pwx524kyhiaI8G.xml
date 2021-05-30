@@ -1,0 +1,70 @@
+<root>
+	<async_job class_type="KSimulationJob_FileSim">
+		<doc_dirty>true</doc_dirty>
+		<job_id>368749136.0</job_id>
+		<job_state>4</job_state>
+		<job_remote>false</job_remote>
+		<job_children/>
+		<sweep_indices/>
+		<child_rank>-1</child_rank>
+		<update_dependents>true</update_dependents>
+		<mesh_only>false</mesh_only>
+		<status_monitor_settings>
+			<layout>1</layout>
+			<fields>
+				<field>
+					<field_num>0</field_num>
+					<field_text>Simulation: TD:NLN:TD.AP_TR.$FDOC:Sim_DS20</field_text>
+				</field>
+				<field>
+					<field_num>1</field_num>
+					<field_text>Simulator:</field_text>
+				</field>
+				<field>
+					<field_num>2</field_num>
+					<field_text>Freq=100 MHz</field_text>
+				</field>
+			</fields>
+			<bars>
+				<bar>
+					<bar_num>1</bar_num>
+					<bar_text>Sweep Point 1 of 1</bar_text>
+					<bar_min>0</bar_min>
+					<bar_max>100</bar_max>
+					<bar_step>1</bar_step>
+					<bar_current>21</bar_current>
+				</bar>
+				<bar>
+					<bar_num>2</bar_num>
+					<bar_text>Simulation Progress: 21 %</bar_text>
+					<bar_min>0</bar_min>
+					<bar_max>100</bar_max>
+					<bar_step>1</bar_step>
+					<bar_current>21</bar_current>
+				</bar>
+			</bars>
+			<graph_text>Data:</graph_text>
+			<graph_flags>57</graph_flags>
+			<graph_min_y>-1</graph_min_y>
+			<graph_max_y>1</graph_max_y>
+		</status_monitor_settings>
+		<cmd_line>&quot;C:\Users\Moin\AppData\Local\AWR\Design Environment\15.0\temp\Example_02_Tlin\NLN_TD.AP_TR.$FDOC\mwo_aplac_netlist.i&quot; -aq -nd -nth=$reserved_threads -awripc &quot;MWO_Client_bS5Como8pwx524kyhiaI8G.1765105970&quot; &quot;APLAC_bS5Como8pwx524kyhiaI8G.1765105970_368749136.0&quot; -license user=AWR -license awrkey=$lic_key -option=apl_050,apl_100,apl_110,xpr_100,xpw_100,ACOU_PDK,ST_PDK,LKP_PDK,INFINEON_PDK,ALL_PDK -INSTID=60B2DE2D-5D8C-4515-B9E2-664DE5552787 -ctrl_ds &quot;C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Examples\New folder (2)\DATA_SETS\Example_02_Tlin\TD.DS20.dsf&quot;</cmd_line>
+		<exe_path>C:\Program Files (x86)\AWR\AWRDE\15\analog\APLAC\awr_as.exe</exe_path>
+		<remote_job_id>{31EA3497-4B72-4DA8-8C4E-B034C33EE3FC}</remote_job_id>
+		<options/>
+		<data_clock>10</data_clock>
+		<swp2>0</swp2>
+		<is_sync>false</is_sync>
+		<sim_name>NLN:TD.AP_TR.$FDOC</sim_name>
+		<user_name>Sim_DS20</user_name>
+		<input_file>C:\Users\Moin\AppData\Local\AWR\Design Environment\15.0\temp\Example_02_Tlin\NLN_TD.AP_TR.$FDOC\mwo_aplac_netlist.i;C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Examples\New folder (2)\DATA_SETS\Example_02_Tlin\TD.DS20.dsf</input_file>
+		<ctrl_file/>
+		<output_file>C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Examples\New folder (2)\DATA_SETS\Example_02_Tlin\TD.DS20.dsf</output_file>
+		<job_name>NLN:TD.AP_TR.$FDOC_368749136.0</job_name>
+		<job_description>TD:NLN:TD.AP_TR.$FDOC:Sim_DS20</job_description>
+		<job_host>DESKTOP-R919NDG</job_host>
+		<dataset_id>DS20</dataset_id>
+		<inc_ds_file_time>0</inc_ds_file_time>
+	</async_job>
+</root>
+
