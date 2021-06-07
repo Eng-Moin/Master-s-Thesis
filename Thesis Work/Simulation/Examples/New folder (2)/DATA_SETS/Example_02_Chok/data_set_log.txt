@@ -1,0 +1,3 @@
+[14164]  Error log for : Time domain.DS7.dsf
+	[14164]	This data set was only partially written - unable to read
+	[14164]	This data set was only partially written - unable to read
