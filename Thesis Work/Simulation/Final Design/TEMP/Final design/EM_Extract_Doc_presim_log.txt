@@ -1,0 +1,4 @@
+3:01:14 AM Wed, 07/07/2021 Log: Do check dataset with the current document
+3:01:14 AM Wed, 07/07/2021 Log: Compare the document with the dataset 'EM_Sim_DS0'
+3:01:14 AM Wed, 07/07/2021 Log: Re-simulation, geometry has changed
+3:01:14 AM Wed, 07/07/2021 Log: Schedule simulation job with AWR AXIEM® - Async

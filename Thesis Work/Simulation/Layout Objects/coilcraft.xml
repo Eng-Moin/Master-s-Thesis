@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<XML_COMPONENT_DATA xmlns="urn:awr-lib-data">
+	<COPYRIGHT>The data in this file is copyright of Coilcraft</COPYRIGHT>
+	<SUMMARY>This file contains data on the Coilcraft Inductors</SUMMARY>
+	<FILE Name="RF Inductors\Data" Icon="Inductor">RF_Inductors\Coilcraft_RF_Inductors_Parametrized.xml</FILE>
+	<FILE Name="RF Inductors\Model" Icon="Inductor">RF_Inductors\Coilcraft_RF_Inductors_Model_Parametrized.xml</FILE>
+	<FILE Name="Broadband Inductors" Icon="Inductor">Broadband_Inductors\Coilcraft_Broadband_Inductors_Parametrized.xml</FILE>
+	<FILE Name="Spring Inductors" Icon="Inductor">Spring_Inductors\Coilcraft_Spring_Inductors_Parametrized.xml</FILE>
+	<FILE Name="LC filters" Icon="Filters">LC_Filters\Coilcraft_LC_Filters_Parametrized.xml</FILE>
+	<FILE Name="Wideband Transformers" Icon="Transformer">Wideband_Transformers\Coilcraft_Wideband_Transformers_Parametrized.xml</FILE>
+	<FILE Name="Common Mode Chokes" Icon="Transformer">Common_Mode_Chokes\Coilcraft_Common_Mode_Chokes_Parametrized.xml</FILE>
+	<FILE Name="Coupled Inductors" Icon="Transformer">Coupled_Inductors\Coilcraft_Coupled_Inductors_Parametrized.xml</FILE>
+</XML_COMPONENT_DATA>
+

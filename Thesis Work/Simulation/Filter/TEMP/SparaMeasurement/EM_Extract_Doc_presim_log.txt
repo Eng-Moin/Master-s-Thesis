@@ -1,3 +1,4 @@
-2:30:14 AM Fri, 06/18/2021 Log: Do check dataset with the current document
-2:30:14 AM Fri, 06/18/2021 Log: Re-simulation, no prior dataset found
-2:30:14 AM Fri, 06/18/2021 Log: Schedule simulation job with AWR AXIEM® - Async
+10:25:04 PM Mon, 06/28/2021 Log: Do check dataset with the current document
+10:25:04 PM Mon, 06/28/2021 Log: Compare the document with the dataset 'EM_Sim_DS16'
+10:25:04 PM Mon, 06/28/2021 Log: Re-simulation, geometry has changed
+10:25:04 PM Mon, 06/28/2021 Log: Schedule simulation job with AWR AXIEM® - Async

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<State_File>
+
+  <IterationCount value="3"/>
+
+  <VolumetricIterationCount value="2"/>
+
+  <FileVersion value="1"/>
+
+  <ResultCount value="2"/>
+
+  <ElapsedTime value="1.66"/>
+
+  <!--Sun Jun 27 17:39:33 2021-->
+
+  <!--15.04.10117.2-->
+
+  <Iteration_0>
+    <Name value="Ports Only 1"/>
+    <type value="0"/>
+    <ElementCount value="7561"/>
+    <ResultData_0>
+      <Result converged="False" error="1" type="Zc/Kz" valid="True"/>
+      <AMRTime value="0"/>
+      <ItemData>
+        <ItemCount value="1"/>
+        <EntryData_0>
+          <EntryCount value="2"/>
+          <Entry id="0" imaginary="0" real="50"/>
+          <Entry id="1" imaginary="0" real="50"/>
+        </EntryData_0>
+      </ItemData>
+    </ResultData_0>
+    <ResultData_1>
+      <Result converged="False" error="1" type="Magnitude S" valid="False"/>
+      <AMRTime value="0"/>
+      <ItemData>
+        <ItemCount value="0"/>
+      </ItemData>
+    </ResultData_1>
+    <Time value="0.15"/>
+    <MemoryLoad fraction="0.058" size="281.8"/>
+  </Iteration_0>
+
+  <!--Sun Jun 27 17:39:36 2021-->
+
+  <!--15.04.10117.2-->
+
+  <PortsOnlyIterationCount value="1"/>
+
+  <!--Sun Jun 27 17:39:36 2021-->
+
+  <!--15.04.10117.2-->
+
+  <Iteration_1>
+    <Name value="1"/>
+    <type value="1"/>
+    <ElementCount value="7561"/>
+    <ResultData_0>
+      <Result converged="True" error="0" type="Zc/Kz" valid="True"/>
+      <AMRTime value="0"/>
+      <ItemData>
+        <ItemCount value="1"/>
+        <EntryData_0>
+          <EntryCount value="2"/>
+          <Entry id="0" imaginary="0" real="50"/>
+          <Entry id="1" imaginary="0" real="50"/>
+        </EntryData_0>
+      </ItemData>
+    </ResultData_0>
+    <ResultData_1>
+      <Result converged="False" error="1" type="Magnitude S" valid="True"/>
+      <AMRTime value="0.306795395"/>
+      <ItemData>
+        <ItemCount value="1"/>
+        <EntryData_0>
+          <EntryCount value="4"/>
+          <Entry id="0" imaginary="0.0756778363406375" real="-0.996384378731134"/>
+          <Entry id="1" imaginary="-5.91223048215234e-06" real="-1.24025187780686e-06"/>
+          <Entry id="2" imaginary="-5.91223048215579e-06" real="-1.24025187780716e-06"/>
+          <Entry id="3" imaginary="0.0769433128066247" real="-0.996293181083796"/>
+        </EntryData_0>
+      </ItemData>
+    </ResultData_1>
+    <Time value="0.31"/>
+    <MemoryLoad fraction="0.115" size="555.1"/>
+  </Iteration_1>
+
+  <!--Sun Jun 27 17:39:45 2021-->
+
+  <!--15.04.10117.2-->
+
+  <!--Sun Jun 27 17:39:48 2021-->
+
+  <!--15.04.10117.2-->
+
+  <Iteration_2>
+    <Name value="2"/>
+    <type value="2"/>
+    <ElementCount value="7561"/>
+    <ResultData_0>
+      <Result converged="True" error="0" type="Zc/Kz" valid="True"/>
+      <AMRTime value="0"/>
+      <ItemData>
+        <ItemCount value="1"/>
+        <EntryData_0>
+          <EntryCount value="2"/>
+          <Entry id="0" imaginary="0" real="50"/>
+          <Entry id="1" imaginary="0" real="50"/>
+          <Entry id="0" imaginary="0" real="50"/>
+          <Entry id="1" imaginary="0" real="50"/>
+        </EntryData_0>
+      </ItemData>
+      <Result converged="True" error="0" type="Zc/Kz" valid="True"/>
+      <AMRTime value="0"/>
+    </ResultData_0>
+    <ResultData_1>
+      <Result converged="True" error="0.00196875658349933" type="Magnitude S" valid="True"/>
+      <AMRTime value="0.537778728333333"/>
+      <ItemData>
+        <ItemCount value="1"/>
+        <EntryData_0>
+          <EntryCount value="4"/>
+          <Entry id="0" imaginary="0.0776431384744025" real="-0.996267802541066"/>
+          <Entry id="1" imaginary="-7.85198450867297e-06" real="-1.45075435450898e-06"/>
+          <Entry id="2" imaginary="-7.85198450868718e-06" real="-1.45075435451031e-06"/>
+          <Entry id="3" imaginary="0.07781793692808" real="-0.99626029605597"/>
+          <Entry id="0" imaginary="0.0776431384744025" real="-0.996267802541066"/>
+          <Entry id="1" imaginary="-7.85198450867297e-06" real="-1.45075435450898e-06"/>
+          <Entry id="2" imaginary="-7.85198450868718e-06" real="-1.45075435451031e-06"/>
+          <Entry id="3" imaginary="0.07781793692808" real="-0.99626029605597"/>
+        </EntryData_0>
+      </ItemData>
+      <Result converged="True" error="0.00196875658349933" type="Magnitude S" valid="True"/>
+      <AMRTime value="0.537778728333333"/>
+    </ResultData_1>
+    <Time value="1.7"/>
+    <MemoryLoad fraction="0.244" size="1183.1"/>
+  </Iteration_2>
+
+  <!--Sun Jun 27 17:39:59 2021-->
+
+  <!--15.04.10117.2-->
+
+  <!--Sun Jun 27 17:41:08 2021-->
+
+  <!--15.04.10117.2-->
+
+</State_File>

@@ -1,4 +1,4 @@
-3:16:24 AM Tue, 06/22/2021 Log: Do check dataset with the current document
-3:16:24 AM Tue, 06/22/2021 Log: Compare the document with the dataset 'EM_Sim_DS16'
-3:16:24 AM Tue, 06/22/2021 Log: Re-simulation, simulator type has changed
-3:16:24 AM Tue, 06/22/2021 Log: Schedule simulation job with AWR Analyst™ 3D FEM - Async
+5:39:25 PM Sun, 06/27/2021 Log: Do check dataset with the current document
+5:39:25 PM Sun, 06/27/2021 Log: Compare the document with the dataset 'EM_Sim_DS8'
+5:39:25 PM Sun, 06/27/2021 Log: Re-simulation, geometry has changed
+5:39:25 PM Sun, 06/27/2021 Log: Schedule simulation job with AWR Analyst™ 3D FEM - Async

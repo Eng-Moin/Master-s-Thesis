@@ -1,0 +1,590 @@
+!--- Process Definition File Exported from AWR Design Environment (10117)
+!--- Name: default.lpf
+!--- Project: C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Choke\Choke.emp
+!--- Sat Jun 26 04:06:46 2021
+
+$VERSION_BEGIN 1500 $VERSION_END
+
+$PROCESS_SETUP_BEGIN
+
+	$DEFAULT_UNITS_BEGIN
+		LEN  m
+		FREQ M
+		CAP  u
+		IND  n
+		RES  none
+		COND none
+		TEMP DegC
+		ANG  Deg
+		TIME n
+		VOLT none
+		CUR  m
+		PWR  m
+		PDB  dbm
+	$DEFAULT_UNITS_END
+
+	$DBASE_UNIT_BEGIN
+		DRAW_RESOLUTION	1e-06	m
+		GRID_SPACING	0.1	m
+	$DBASE_UNIT_END
+
+	$LINE_TYPE_BEGIN	"Top Copper"
+		! -> Layer 		offset 		minWidth 		flags
+		"Copper"		0		5e-05		0
+	$LINE_TYPE_END
+
+	$VIA_DEFINE_BEGIN
+		! -> Layer 		offset 		mitre 		flags
+		"2_0"		0		0		1
+	$VIA_DEFINE_END
+
+	!--- Register drawing utility function used for drawing airbridges ------
+	$BRIDGE_DRAW_BEGIN NONE $BRIDGE_DRAW_END
+
+	!--- Register cell to be used by default for route vias  ------
+	$ROUTE_VIA_CELL_BEGIN MICMETROUTEVIA $ROUTE_VIA_CELL_END
+
+	!--- DRC Rule deck (path relative to lpf file) ------
+	$DRC_RULES_FILE_BEGIN "$MWO\drc_rules.txt" $DRC_RULES_FILE_END
+
+	!--- DRC engine: AWR, CALIBRE, ASSURA, CIRANOVA, or POLYTEDA ------
+	$DRC_ENGINE_BEGIN "AWR" $DRC_ENGINE_END
+
+	!--- Used by Connectivity tracer ------
+	$CONNECT_RULES_BEGIN 
+		Connect "Copper" To "Via"
+		Connect_All "Via"
+	$CONNECT_RULES_END 
+
+	!--- Default font used for layout ------
+	$DEFAULT_FONT_BEGIN "Arial" 	10000	0	0 	$DEFAULT_FONT_END
+
+	$DEFAULT_VALUES_BEGIN
+		W		1		m
+		L		10		m
+		H		1		m
+		T		0.05		m
+		Er		3.38
+		Rho		1
+		Tand		0
+		C		1e-06		u
+		Li		1		n
+		Rad		2		m
+		M		0.6
+		Cs		1		m
+		Extn		10		m
+	$DEFAULT_VALUES_END
+
+
+$PROCESS_SETUP_END
+
+
+!-------------- Drawing Layer Setup Defined Below ------------------------------
+$LAYER_SETUP_BEGIN
+
+$DRAW_LAYERS_BEGIN
+
+!--Layer Entry Descriptions-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    3D_Thickness    3D_Z_Pos    Texture    3D_Trans_Fill    3D_Translucent    Texture_Scale    File_Layer    Options    Cloak    Hatch_Name    Description    2D_Trans_Fill    2D_Translucent    
+!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"Error"                   255           255           0             16             1          1                0         35000           0           ""         0                0                 1                "Obsolete"    0          0        ""            ""             0                0                 
+"EMSymbols"               0             0             0             1              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"Copper"                  0             32896         0             3              1          1                0         35000           0           ""         0                0                 1                "Obsolete"    0          0        ""            ""             0                0                 
+"Footprint"               0             65280         0             2              1          1                0         250000          71000       ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Package"                 16711680      16711680      0             3              1          1                0         250000          321000      ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Leads"                   0             8421504       0             1              1          1                0         25000           36000       ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"SolderMask"              0             65535         0             1              1          1                0         10000           1000        ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Via"                     255           32896         0             9              1          1                0         -1e+06          1000        ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"NiCr"                    0             16711680      0             1              1          1                0         10000           1000        ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Drill"                   255           12632256      0             9              1          1                0         -1e+06          1000        ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Board"                   0             16777215      0             1              1          1                1         -1e+06          -1000       ""         1                0.5               0                "Obsolete"    0          0        ""            ""             0                0                 
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"Annotation"              16776960      16776960      2             8              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"Socket 1"                16711680      16711680      0             15             1          1                0         0               0           ""         0                0.5               0                "Obsolete"    0          1        ""            ""             0                0                 
+"RatsNest"                4210943       4210943       2             0              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"Default"                 0             0             0             0              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"Highlight"               65535         65535         0             5              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"Selection"               65535         65535         0             5              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"SubSelection"            4210943       4210943       0             1              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"DrillHoles"              2105376       2105376       0             0              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"DynamicHighlight"        65535         65535         2             0              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"FirstSelected"           42495         65535         0             5              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"EMBoundary"              2105376       2105376       2             0              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          1        ""            ""             0                0                 
+"TCMLIN_EM"               4723747       9987187       0             3              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Gate Metal"              5520489       10783929      0             7              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Metal 1"                 3932300       9195740       0             3              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Source Drain Metal"      7098508       12361948      0             4              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Dielectric Via"          7088233       12351673      0             1              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"Metal 2"                 6296576       11560016      0             2              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"15_0"                    806982        6070422       0             1              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"14_0"                    1598569       6862009       0             2              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"16_0"                    2390156       7653596       0             3              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"17_0"                    3145728       8409168       0             4              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"99_1"                    7869580       13133020      0             5              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"99_2"                    4718732       9982172       0             6              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"187_0"                   806982        6070422       0             1              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"167_0"                   1598569       6862009       0             2              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"168_0"                   2390156       7653596       0             3              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"169_0"                   3145728       8409168       0             4              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"135_0"                   3937315       9200755       0             5              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"140_0"                   4728902       9992342       0             6              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+"188_0"                   5520489       10783929      0             7              1          1                0         0               0           ""         0                0                 0                "Obsolete"    0          0        ""            ""             0                0                 
+$DRAW_LAYERS_END
+
+$LAYERS_CONFIG_BEGIN
+
+$CONFIG_NAME	"Default"
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    3D_Trans_Fill    3D_Translucent    Cloak    3D_Thickness    3D_Z_Pos    2D_Trans_Fill    2D_Translucent    
+"135_0"                   3937315       9200755       0             5              1          1                0         0                0                 0        0               0           0                0                 
+"140_0"                   4728902       9992342       0             6              1          1                0         0                0                 0        0               0           0                0                 
+"14_0"                    1598569       6862009       0             2              1          1                0         0                0                 0        0               0           0                0                 
+"15_0"                    806982        6070422       0             1              1          1                0         0                0                 0        0               0           0                0                 
+"167_0"                   1598569       6862009       0             2              1          1                0         0                0                 0        0               0           0                0                 
+"168_0"                   2390156       7653596       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"169_0"                   3145728       8409168       0             4              1          1                0         0                0                 0        0               0           0                0                 
+"16_0"                    2390156       7653596       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"17_0"                    3145728       8409168       0             4              1          1                0         0                0                 0        0               0           0                0                 
+"187_0"                   806982        6070422       0             1              1          1                0         0                0                 0        0               0           0                0                 
+"188_0"                   5520489       10783929      0             7              1          1                0         0                0                 0        0               0           0                0                 
+"99_1"                    7869580       13133020      0             5              1          1                0         0                0                 0        0               0           0                0                 
+"99_2"                    4718732       9982172       0             6              1          1                0         0                0                 0        0               0           0                0                 
+"Annotation"              16776960      16776960      2             8              1          1                0         0                0                 1        0               0           0                0                 
+"Board"                   0             16777215      0             1              1          1                1         1                0.5               0        -1e+06          -1000       0                0                 
+"Copper"                  0             32896         0             3              1          1                0         0                0                 0        35000           0           0                0                 
+"Default"                 0             0             0             0              1          1                0         0                0                 1        0               0           0                0                 
+"Dielectric Via"          7088233       12351673      0             1              1          1                0         0                0                 0        0               0           0                0                 
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0                0                 1        0               0           0                0                 
+"Drill"                   255           12632256      0             9              1          1                0         0                0                 0        -1e+06          1000        0                0                 
+"DrillHoles"              2105376       2105376       0             0              1          1                0         0                0                 1        0               0           0                0                 
+"DynamicHighlight"        65535         65535         2             0              1          1                0         0                0                 1        0               0           0                0                 
+"EMBoundary"              2105376       2105376       2             0              1          1                0         0                0                 1        0               0           0                0                 
+"EMSymbols"               0             0             0             1              1          1                0         0                0                 1        0               0           0                0                 
+"Error"                   255           255           0             16             1          1                0         0                0                 0        35000           0           0                0                 
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0                0                 1        0               0           0                0                 
+"FirstSelected"           42495         65535         0             5              1          1                0         0                0                 1        0               0           0                0                 
+"Footprint"               0             65280         0             2              1          1                0         0                0                 0        250000          71000       0                0                 
+"Gate Metal"              5520489       10783929      0             7              1          1                0         0                0                 0        0               0           0                0                 
+"Highlight"               65535         65535         0             5              1          1                0         0                0                 1        0               0           0                0                 
+"Leads"                   0             8421504       0             1              1          1                0         0                0                 0        25000           36000       0                0                 
+"Metal 1"                 3932300       9195740       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"Metal 2"                 6296576       11560016      0             2              1          1                0         0                0                 0        0               0           0                0                 
+"NiCr"                    0             16711680      0             1              1          1                0         0                0                 0        10000           1000        0                0                 
+"Package"                 0             65280         0             5              1          1                0         0                0                 0        250000          321000      0                0                 
+"RatsNest"                4210943       4210943       2             0              1          1                0         0                0                 1        0               0           0                0                 
+"Selection"               65535         65535         0             5              1          1                0         0                0                 1        0               0           0                0                 
+"Socket 1"                16711680      16711680      0             15             1          1                0         0                0.5               1        0               0           0                0                 
+"SolderMask"              0             65535         0             1              1          1                0         0                0                 0        10000           1000        0                0                 
+"Source Drain Metal"      7098508       12361948      0             4              1          1                0         0                0                 0        0               0           0                0                 
+"SubSelection"            4210943       4210943       0             1              1          1                0         0                0                 1        0               0           0                0                 
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0                0                 1        0               0           0                0                 
+"TCMLIN_EM"               4723747       9987187       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"Via"                     255           32896         0             9              1          1                0         0                0                 0        -1e+06          1000        0                0                 
+
+$CONFIG_NAME	"Socket 1"
+! Layer_Name              Line_Color    Fill_Color    Line_Style    Hatch_Style    Visible    Hatch_Visible    Frozen    3D_Trans_Fill    3D_Translucent    Cloak    3D_Thickness    3D_Z_Pos    2D_Trans_Fill    2D_Translucent    
+"135_0"                   3937315       9200755       0             5              1          1                0         0                0                 0        0               0           0                0                 
+"140_0"                   4728902       9992342       0             6              1          1                0         0                0                 0        0               0           0                0                 
+"14_0"                    1598569       6862009       0             2              1          1                0         0                0                 0        0               0           0                0                 
+"15_0"                    806982        6070422       0             1              1          1                0         0                0                 0        0               0           0                0                 
+"167_0"                   1598569       6862009       0             2              1          1                0         0                0                 0        0               0           0                0                 
+"168_0"                   2390156       7653596       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"169_0"                   3145728       8409168       0             4              1          1                0         0                0                 0        0               0           0                0                 
+"16_0"                    2390156       7653596       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"17_0"                    3145728       8409168       0             4              1          1                0         0                0                 0        0               0           0                0                 
+"187_0"                   806982        6070422       0             1              1          1                0         0                0                 0        0               0           0                0                 
+"188_0"                   5520489       10783929      0             7              1          1                0         0                0                 0        0               0           0                0                 
+"99_1"                    7869580       13133020      0             5              1          1                0         0                0                 0        0               0           0                0                 
+"99_2"                    4718732       9982172       0             6              1          1                0         0                0                 0        0               0           0                0                 
+"Annotation"              16776960      16776960      2             8              1          1                0         0                0                 1        0               0           0                0                 
+"Board"                   0             16777215      0             1              1          1                1         1                0.5               0        -1e+06          -1000       0                0                 
+"Copper"                  0             32896         0             3              1          1                0         0                0                 0        35000           0           0                0                 
+"Default"                 0             0             0             0              1          1                0         0                0                 1        0               0           0                0                 
+"Dielectric Via"          7088233       12351673      0             1              1          1                0         0                0                 0        0               0           0                0                 
+"DimensionLines"          2105376       2105376       0             0              1          1                0         0                0                 1        0               0           0                0                 
+"Drill"                   255           12632256      0             9              1          1                0         0                0                 0        -1e+06          1000        0                0                 
+"DrillHoles"              2105376       2105376       0             0              1          1                0         0                0                 1        0               0           0                0                 
+"DynamicHighlight"        65535         65535         2             0              1          1                0         0                0                 1        0               0           0                0                 
+"EMBoundary"              2105376       2105376       2             0              1          1                0         0                0                 1        0               0           0                0                 
+"EMSymbols"               0             0             0             1              1          1                0         0                0                 1        0               0           0                0                 
+"Error"                   255           255           0             16             1          1                0         0                0                 0        35000           0           0                0                 
+"ErrorHighlight"          1113872       1113872       0             5              1          1                0         0                0                 1        0               0           0                0                 
+"FirstSelected"           42495         65535         0             5              1          1                0         0                0                 1        0               0           0                0                 
+"Footprint"               0             65280         0             2              1          1                0         0                0                 0        250000          71000       0                0                 
+"Gate Metal"              5520489       10783929      0             7              1          1                0         0                0                 0        0               0           0                0                 
+"Highlight"               65535         65535         0             5              1          1                0         0                0                 1        0               0           0                0                 
+"Leads"                   0             8421504       0             1              1          1                0         0                0                 1        25000           36000       0                0                 
+"Metal 1"                 3932300       9195740       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"Metal 2"                 6296576       11560016      0             2              1          1                0         0                0                 0        0               0           0                0                 
+"NiCr"                    0             16711680      0             1              1          1                0         0                0                 0        10000           1000        0                0                 
+"Package"                 16711680      16711680      0             3              1          1                0         0                0                 0        250000          321000      0                0                 
+"RatsNest"                4210943       4210943       2             0              1          1                0         0                0                 1        0               0           0                0                 
+"Selection"               65535         65535         0             5              1          1                0         0                0                 1        0               0           0                0                 
+"Socket 1"                16711680      16711680      0             15             1          1                0         0                0.5               1        0               0           0                0                 
+"SolderMask"              0             65535         0             1              1          1                0         0                0                 0        10000           1000        0                0                 
+"Source Drain Metal"      7098508       12361948      0             4              1          1                0         0                0                 0        0               0           0                0                 
+"SubSelection"            4210943       4210943       0             1              1          1                0         0                0                 1        0               0           0                0                 
+"SubcircuitAnnotation"    4259648       4259648       2             8              1          1                0         0                0                 1        0               0           0                0                 
+"TCMLIN_EM"               4723747       9987187       0             3              1          1                0         0                0                 0        0               0           0                0                 
+"Via"                     255           32896         0             9              1          1                0         0                0                 0        -1e+06          1000        0                0                 
+
+$LAYERS_CONFIG_END
+
+$MODEL_LAYER_BEGIN
+
+$MAP_NAME	"StdMap"
+"Error"                   "Error"
+"EMSymbols"               "EMSymbols"
+"Copper"                  "Copper"
+"Footprint"               "Footprint"
+"Package"                 "Package"
+"Leads"                   "Leads"
+"SolderMask"              "SolderMask"
+"Via"                     "Via"
+"NiCr"                    "NiCr"
+"Drill"                   "Drill"
+"Board"                   "Board"
+"SubcircuitAnnotation"    "SubcircuitAnnotation"
+"Annotation"              "Annotation"
+"Socket 1"                "Socket 1"
+"RatsNest"                "RatsNest"
+"Default"                 "Default"
+"ErrorHighlight"          "ErrorHighlight"
+"Highlight"               "Highlight"
+"Selection"               "Selection"
+"SubSelection"            "SubSelection"
+"DrillHoles"              "DrillHoles"
+"DimensionLines"          "DimensionLines"
+"DynamicHighlight"        "DynamicHighlight"
+"FirstSelected"           "FirstSelected"
+"EMBoundary"              "EMBoundary"
+"TCMLIN_EM"               "TCMLIN_EM"
+"Gate Metal"              "Gate Metal"
+"Metal 1"                 "Metal 1"
+"Source Drain Metal"      "Source Drain Metal"
+"Dielectric Via"          "Dielectric Via"
+"Metal 2"                 "Metal 2"
+"15_0"                    "15_0"
+"14_0"                    "14_0"
+"16_0"                    "16_0"
+"17_0"                    "17_0"
+"99_1"                    "99_1"
+"99_2"                    "99_2"
+"187_0"                   "187_0"
+"167_0"                   "167_0"
+"168_0"                   "168_0"
+"169_0"                   "169_0"
+"135_0"                   "135_0"
+"140_0"                   "140_0"
+"188_0"                   "188_0"
+"1_0"                     "Copper"
+"2_0"                     "Via"
+"3_0"                     "Board"
+"4_0"                     "NiCr"
+"10_0"                    "Footprint"
+"11_0"                    "Leads"
+"12_0"                    "SolderMask"
+"13_0"                    "Package"
+"128_0"                   "Default"
+"129_0"                   "SubcircuitAnnotation"
+"130_0"                   "Annotation"
+"131_0"                   "RatsNest"
+
+$MODEL_LAYER_END
+
+$EM_MAPPING_BEGIN
+$EM_MAP	"Default" !name
+!layer_name em_layer is_via material via_extent
+"Error"                   0	0	""	1
+"EMSymbols"               0	0	""	1
+"Copper"                  2	0	"Au"	1
+"Footprint"               0	0	""	1
+"Package"                 0	0	""	1
+"Leads"                   0	0	""	1
+"SolderMask"              0	0	""	1
+"Via"                     2	1	"Perfect Conductor"	1
+"NiCr"                    0	0	""	1
+"Drill"                   0	0	""	1
+"Board"                   0	0	""	1
+"SubcircuitAnnotation"    0	0	""	1
+"Annotation"              0	0	""	1
+"Socket 1"                0	0	""	1
+"RatsNest"                0	0	""	1
+"Default"                 0	0	""	1
+"ErrorHighlight"          0	0	""	1
+"Highlight"               0	0	""	1
+"Selection"               0	0	""	1
+"SubSelection"            0	0	""	1
+"DrillHoles"              0	0	""	1
+"DimensionLines"          0	0	""	1
+"DynamicHighlight"        0	0	""	1
+"FirstSelected"           0	0	""	1
+"EMBoundary"              0	0	""	1
+"TCMLIN_EM"               0	0	""	1
+"Gate Metal"              0	0	""	1
+"Metal 1"                 0	0	""	1
+"Source Drain Metal"      0	0	""	1
+"Dielectric Via"          0	0	""	1
+"Metal 2"                 0	0	""	1
+"15_0"                    0	0	""	1
+"14_0"                    0	0	""	1
+"16_0"                    0	0	""	1
+"17_0"                    0	0	""	1
+"99_1"                    0	0	""	1
+"99_2"                    0	0	""	1
+"187_0"                   0	0	""	1
+"167_0"                   0	0	""	1
+"168_0"                   0	0	""	1
+"169_0"                   0	0	""	1
+"135_0"                   0	0	""	1
+"140_0"                   0	0	""	1
+"188_0"                   0	0	""	1
+
+$EM_MAP	"EmMap1" !name
+!layer_name em_layer is_via material via_extent
+"Error"                   0	0	""	1
+"EMSymbols"               0	0	""	1
+"Copper"                  0	0	"Au"	1
+"Footprint"               0	0	""	1
+"Package"                 0	0	""	1
+"Leads"                   0	0	""	1
+"SolderMask"              0	0	""	1
+"Via"                     0	0	""	1
+"NiCr"                    0	0	""	1
+"Drill"                   0	0	""	1
+"Board"                   0	0	""	1
+"SubcircuitAnnotation"    0	0	""	1
+"Annotation"              0	0	""	1
+"Socket 1"                0	0	""	1
+"RatsNest"                0	0	""	1
+"Default"                 0	0	""	1
+"ErrorHighlight"          0	0	""	1
+"Highlight"               0	0	""	1
+"Selection"               0	0	""	1
+"SubSelection"            0	0	""	1
+"DrillHoles"              0	0	""	1
+"DimensionLines"          0	0	""	1
+"DynamicHighlight"        0	0	""	1
+"FirstSelected"           0	0	""	1
+"EMBoundary"              0	0	""	1
+"TCMLIN_EM"               0	0	""	1
+"Gate Metal"              0	0	""	1
+"Metal 1"                 0	0	""	1
+"Source Drain Metal"      0	0	""	1
+"Dielectric Via"          0	0	""	1
+"Metal 2"                 0	0	""	1
+"15_0"                    0	0	""	1
+"14_0"                    0	0	""	1
+"16_0"                    0	0	""	1
+"17_0"                    0	0	""	1
+"99_1"                    0	0	""	1
+"99_2"                    0	0	""	1
+"187_0"                   0	0	""	1
+"167_0"                   0	0	""	1
+"168_0"                   0	0	""	1
+"169_0"                   0	0	""	1
+"135_0"                   0	0	""	1
+"140_0"                   0	0	""	1
+"188_0"                   0	0	""	1
+
+$EM_MAPPING_END
+
+
+$FILE_MAPPING_BEGIN
+$FILE_MAP	"GDSII"	0
+!layer_name file_layer skip
+"Error"                   "128"         0	 ! 128_0
+"EMSymbols"               "142"         1	 ! 142_0
+"Copper"                  "1"           1	 ! 1_0
+"Footprint"               "10"          0	 ! 10_0
+"Package"                 "13"          0	 ! 13_0
+"Leads"                   "11"          0	 ! 11_0
+"SolderMask"              "12"          0	 ! 12_0
+"Via"                     "2"           0	 ! 2_0
+"NiCr"                    "4"           0	 ! 4_0
+"Drill"                   "136"         0	 ! 136_0
+"Board"                   "3"           0	 ! 3_0
+"SubcircuitAnnotation"    "129"         1	 ! 129_0
+"Annotation"              "130"         1	 ! 130_0
+"Socket 1"                "Socket 1"    0	 ! 0_0
+"RatsNest"                "131"         1	 ! 131_0
+"Default"                 "128"         1	 ! 128_0
+"ErrorHighlight"          "143"         1	 ! 143_0
+"Highlight"               "144"         1	 ! 144_0
+"Selection"               "145"         1	 ! 145_0
+"SubSelection"            "146"         1	 ! 146_0
+"DrillHoles"              "147"         1	 ! 147_0
+"DimensionLines"          "148"         1	 ! 148_0
+"DynamicHighlight"        "149"         1	 ! 149_0
+"FirstSelected"           "150"         0	 ! 150_0
+"EMBoundary"              "151"         0	 ! 151_0
+"TCMLIN_EM"               "152"         0	 ! 152_0
+"Gate Metal"              "153"         0	 ! 153_0
+"Metal 1"                 "154"         0	 ! 154_0
+"Source Drain Metal"      "155"         0	 ! 155_0
+"Dielectric Via"          "156"         0	 ! 156_0
+"Metal 2"                 "157"         0	 ! 157_0
+"15_0"                    "15"          0	 ! 15_0
+"14_0"                    "14"          0	 ! 14_0
+"16_0"                    "16"          0	 ! 16_0
+"17_0"                    "17"          0	 ! 17_0
+"99_1"                    "65635"       0	 ! 99_1
+"99_2"                    "131171"      0	 ! 99_2
+"187_0"                   "187"         0	 ! 187_0
+"167_0"                   "167"         0	 ! 167_0
+"168_0"                   "168"         0	 ! 168_0
+"169_0"                   "169"         0	 ! 169_0
+"135_0"                   "135"         0	 ! 135_0
+"140_0"                   "140"         0	 ! 140_0
+"188_0"                   "188"         0	 ! 188_0
+
+$FILE_MAP	"DXF"	1
+!layer_name file_layer skip
+"Error"                   "Error"       1
+"EMSymbols"               "EMSymbols"   1
+"Copper"                  "Copper"      0
+"Footprint"               "Footprint"   0
+"Package"                 "Package"     0
+"Leads"                   "Leads"       0
+"SolderMask"              "SolderMask"  0
+"Via"                     "Via"         0
+"NiCr"                    "NiCr"        0
+"Drill"                   "Drill"       0
+"Board"                   "Board"       0
+"SubcircuitAnnotation"    "SubcircuitAnnotation"1
+"Annotation"              "Annotation"  1
+"Socket 1"                "Socket 1"    0
+"RatsNest"                "RatsNest"    1
+"Default"                 "Default"     0
+"ErrorHighlight"          "ErrorHighlight"1
+"Highlight"               "Highlight"   1
+"Selection"               "Selection"   1
+"SubSelection"            "SubSelection"1
+"DrillHoles"              "DrillHoles"  1
+"DimensionLines"          "DimensionLines"1
+"DynamicHighlight"        "DynamicHighlight"1
+"FirstSelected"           "FirstSelected"0
+"EMBoundary"              "EMBoundary"  0
+"TCMLIN_EM"               "TCMLIN_EM"   0
+"Gate Metal"              "Gate Metal"  0
+"Metal 1"                 "Metal 1"     0
+"Source Drain Metal"      "Source Drain Metal"0
+"Dielectric Via"          "Dielectric Via"0
+"Metal 2"                 "Metal 2"     0
+"15_0"                    "15_0"        0
+"14_0"                    "14_0"        1
+"16_0"                    "16_0"        0
+"17_0"                    "17_0"        0
+"99_1"                    "99_1"        0
+"99_2"                    "99_2"        0
+"187_0"                   "187_0"       0
+"167_0"                   "167_0"       0
+"168_0"                   "168_0"       0
+"169_0"                   "169_0"       0
+"135_0"                   "135_0"       0
+"140_0"                   "140_0"       0
+"188_0"                   "188_0"       0
+
+$FILE_MAP	"Gerber"	2
+!layer_name file_layer skip
+"Error"                   "N/A"         1
+"EMSymbols"               "N/A"         1
+"Copper"                  "N/A"         0
+"Footprint"               "N/A"         0
+"Package"                 "N/A"         0
+"Leads"                   "N/A"         0
+"SolderMask"              "N/A"         0
+"Via"                     "N/A"         0
+"NiCr"                    "N/A"         0
+"Drill"                   "N/A"         0
+"Board"                   "N/A"         0
+"SubcircuitAnnotation"    "N/A"         1
+"Annotation"              "N/A"         1
+"Socket 1"                "Socket 1"    0
+"RatsNest"                "N/A"         1
+"Default"                 "N/A"         1
+"ErrorHighlight"          "N/A"         1
+"Highlight"               "N/A"         1
+"Selection"               "N/A"         1
+"SubSelection"            "N/A"         1
+"DrillHoles"              "N/A"         1
+"DimensionLines"          "N/A"         1
+"DynamicHighlight"        "N/A"         1
+"FirstSelected"           "N/A"         0
+"EMBoundary"              "N/A"         0
+"TCMLIN_EM"               "N/A"         0
+"Gate Metal"              "N/A"         0
+"Metal 1"                 "N/A"         0
+"Source Drain Metal"      "N/A"         0
+"Dielectric Via"          "N/A"         0
+"Metal 2"                 "N/A"         0
+"15_0"                    "N/A"         0
+"14_0"                    "N/A"         0
+"16_0"                    "N/A"         0
+"17_0"                    "N/A"         0
+"99_1"                    "N/A"         0
+"99_2"                    "N/A"         0
+"187_0"                   "N/A"         0
+"167_0"                   "N/A"         0
+"168_0"                   "N/A"         0
+"169_0"                   "N/A"         0
+"135_0"                   "N/A"         0
+"140_0"                   "N/A"         0
+"188_0"                   "N/A"         0
+
+$FILE_MAPPING_END
+
+
+$DRILL_TABLE_BEGIN
+!drill_name drill_number drill_diameter
+"Default"                 1	0.001
+
+$DRILL_TABLE_END
+
+$LAYER_SETUP_END
+
+$ROUTER_SETUP_BEGIN
+
+$LAYERS_BEGIN
+!--------------------------------- Layer Entry Descriptions -----------------------------------------------------------
+! layer_name <layer_type> <layer_dir> min_width min_spacing route_grid route_grid_offset
+! <layer_type> = other, nwell, pwell, ndiff, pdiff, nimplant, pimplant, poly, cut, metal, non_contact_metal
+!                diffusion, recognition
+! <layer_dir> = none, horiz, vert
+!----------------------------------------------------------------------------------------------------------------------
+$LAYERS_END
+
+$CONNECT_LAYERS_BEGIN
+!--------------------------------- Connect layer -----------------------------------------------------------
+! <connect_type> <layer>
+! <connect_type> = UNKNOWN CAP_TOP_PLATE CAP_BOTTOM_PLATE SPIRAL_EXIT SPIRAL_TURN RESISTOR RESISTOR_2 RESISTOR_3
+!                 VIA_TOP VIA_BOTTOM DISABLED CAP_TOP_PLATE_2 CAP_BOTTOM_PLATE_2 CAP_TOP_PLATE_3 CAP_BOTTOM_PLATE_3 DEVICE
+!                 DEVICE_2 DEVICE_3
+!-----------------------------------------------------------------------------------------------------------
+$CONNECT_LAYERS_END
+
+$ROUTER_SETUP_END
+
+
+!------------- EM Simulation Setup Defined Below ----------------------------
+
+$EM_SETUP_BEGIN
+	$DEFAULT_EM_ENCLOSURE_BEGIN
+	!-----XDIM-----YDIM-----NX-----NY-----
+	!      (m)      (m)
+		0.0008 0.0008 80 80
+	$DEFAULT_EM_ENCLOSURE_END
+
+	$DEFAULT_EM_LAYERS_BEGIN
+	!	Hatch Patterns ------(0)  |||||(1)  \\\\\(2)  /////(3)  +++++(4)  xxxxx(5)
+	!
+	!-----T-----Er-----Tand-----Sigma-----Scale-----CondHatch-----ViaHatch-----
+	!    (m)                    (S/m)                 (0-5)         (0-5)
+	  0.0005 1 0 0 1 0 1
+	  5e-06 6.8 0.005 0 5 2 3
+	  0.0001 12.9 0.001 0 1 4 5
+	$DEFAULT_EM_LAYERS_END
+
+$EM_SETUP_END
+
