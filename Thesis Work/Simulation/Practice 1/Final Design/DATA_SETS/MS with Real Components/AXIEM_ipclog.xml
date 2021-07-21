@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ipc_log_formatter.xsl"?>
+<tool_session>
+	<ipc_session>
+		<ipc_event>
+			<timestamp>2021-07-19T01:00:07.749</timestamp>
+			<serial_num>0001311</serial_num>
+			<type>message</type>
+			<direction>send</direction>
+			<transport>awr_local_ipc</transport>
+			<proc_name>AXIEM</proc_name> <proc_id>21028</proc_id>
+			<msg_id>03105</msg_id> <msg_name>SE_LOG_MESSAGE</msg_name>
+			<encoding>raw</encoding>
+			<from>EM_Server_oVBWCnFruBK0mU1rw5KtmV.1763339883_262367579.0</from>
+			<to>MWO_Client_oVBWCnFruBK0mU1rw5KtmV.1763339883</to>
+			<message_unique_name>ANcd4MRb3kIeiMWO3HbSIL</message_unique_name>
+		</ipc_event>
+		<ipc_event>
+			<timestamp>2021-07-19T01:00:07.754</timestamp>
+			<serial_num>0001312</serial_num>
+			<type>message</type>
+			<direction>send</direction>
+			<transport>awr_local_ipc</transport>
+			<proc_name>AXIEM</proc_name> <proc_id>21028</proc_id>
+			<msg_id>03105</msg_id> <msg_name>SE_LOG_MESSAGE</msg_name>
+			<encoding>raw</encoding>
+			<from>EM_Server_oVBWCnFruBK0mU1rw5KtmV.1763339883_262367579.0</from>
+			<to>MWO_Client_oVBWCnFruBK0mU1rw5KtmV.1763339883</to>
+			<message_unique_name>2qIWGPFXeDKKuWVZHDTRvv</message_unique_name>
+		</ipc_event>
+	</ipc_session>
+</tool_session>
