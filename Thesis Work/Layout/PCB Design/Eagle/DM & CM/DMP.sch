@@ -162,6 +162,132 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="SMA">
+<packages>
+<package name="SAMTEC_SMA-J-P-H-ST-EM1">
+<wire x1="3.165" y1="-1.9" x2="3.165" y2="-11.42" width="0.1" layer="51"/>
+<wire x1="3.165" y1="-11.42" x2="-3.165" y2="-11.42" width="0.1" layer="51"/>
+<wire x1="-3.165" y1="-11.42" x2="-3.165" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-5" y1="-1.9" x2="-3.165" y2="-1.9" width="0.1" layer="51"/>
+<text x="4.30403125" y="-1.701590625" size="0.6096" layer="51">PCB EDGE</text>
+<wire x1="-3.165" y1="-1.9" x2="3.165" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="3.165" y1="-1.9" x2="5" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-3.165" y1="-1.9" x2="-3.175" y2="1.91" width="0.1" layer="51"/>
+<wire x1="-3.175" y1="1.91" x2="3.175" y2="1.91" width="0.1" layer="51"/>
+<wire x1="3.175" y1="1.91" x2="3.165" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-1.9" x2="-1" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="1" y1="-1.9" x2="1.8" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="1.91" x2="-1" y2="1.91" width="0.2" layer="21"/>
+<wire x1="1" y1="1.91" x2="1.8" y2="1.91" width="0.2" layer="21"/>
+<circle x="0.03" y="2.62" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="2.55" x2="3.75" y2="2.55" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.55" x2="3.75" y2="-2.15" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-2.15" x2="3.415" y2="-2.15" width="0.05" layer="39"/>
+<wire x1="3.415" y1="-2.15" x2="3.415" y2="-11.67" width="0.05" layer="39"/>
+<wire x1="3.415" y1="-11.67" x2="-3.415" y2="-11.67" width="0.05" layer="39"/>
+<wire x1="-3.415" y1="-11.67" x2="-3.415" y2="-2.15" width="0.05" layer="39"/>
+<wire x1="-3.415" y1="-2.15" x2="-3.75" y2="-2.15" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.15" x2="-3.75" y2="2.55" width="0.05" layer="39"/>
+<text x="-3.51605" y="3.03466875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.400709375" y="-13.0027" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0.03" y="2.62" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="0" y="0" dx="1.27" dy="3.6" layer="1"/>
+<smd name="2_1" x="-2.825" y="0.2" dx="1.35" dy="4.2" layer="1"/>
+<smd name="3_1" x="2.825" y="0.2" dx="1.35" dy="4.2" layer="1"/>
+<smd name="2_2" x="-2.825" y="0.2" dx="1.35" dy="4.2" layer="16"/>
+<smd name="3_2" x="2.825" y="0.2" dx="1.35" dy="4.2" layer="16"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SMA-J-P-H-ST-EM1">
+<circle x="0" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="1.016" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.286" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="3.302" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="1.778" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-3.81" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.064" y="-4.318" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.762" x2="-1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="-0.508" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0.254" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="-0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="2.54" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMA-J-P-H-ST-EM1" prefix="J">
+<description>SMA Connector Jack, Female Socket 50Ohm Board Edge, End Launch Solder </description>
+<gates>
+<gate name="G$1" symbol="SMA-J-P-H-ST-EM1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAMTEC_SMA-J-P-H-ST-EM1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2_1 2_2 3_1 3_2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Samtec"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="3.675mm"/>
+<attribute name="PARTREV" value="G"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations"/>
+</technology>
+</technologies>
+</device>
+<device name="SMA_CONNECTOR" package="SAMTEC_SMA-J-P-H-ST-EM1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -177,6 +303,10 @@
 <part name="C2" library="capa" deviceset="CAPA" device="1206"/>
 <part name="C3" library="capa" deviceset="CAPA" device="1206"/>
 <part name="C4" library="capa" deviceset="CAPA" device="1206"/>
+<part name="J1" library="SMA" deviceset="SMA-J-P-H-ST-EM1" device=""/>
+<part name="J2" library="SMA" deviceset="SMA-J-P-H-ST-EM1" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -203,6 +333,20 @@
 <attribute name="NAME" x="-1697.66" y="-887.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1697.66" y="-894.68" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="-1818.1" y="-865.8" smashed="yes">
+<attribute name="NAME" x="-1821.91" y="-861.736" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1822.164" y="-870.118" size="1.778" layer="96"/>
+</instance>
+<instance part="J2" gate="G$1" x="-1684.5" y="-860.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="-1680.69" y="-864.664" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-1680.436" y="-856.282" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND1" gate="1" x="-1679.5" y="-906.3" smashed="yes">
+<attribute name="VALUE" x="-1682.04" y="-908.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="-1818.7" y="-908" smashed="yes">
+<attribute name="VALUE" x="-1821.24" y="-910.54" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -211,21 +355,30 @@
 <segment>
 <pinref part="CHIP" gate="G$1" pin="1"/>
 <pinref part="C1" gate="C1" pin="2"/>
-<wire x1="-1779.88" y1="-863.17" x2="-1805.6" y2="-863.37" width="0.1524" layer="91"/>
-<wire x1="-1805.6" y1="-863.37" x2="-1805.6" y2="-878.22" width="0.1524" layer="91"/>
+<wire x1="-1779.88" y1="-863.17" x2="-1805.6" y2="-863.17" width="0.1524" layer="91"/>
+<wire x1="-1805.6" y1="-863.17" x2="-1805.6" y2="-863.26" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-1805.6" y1="-863.3" x2="-1805.6" y2="-878.22" width="0.1524" layer="91"/>
+<wire x1="-1815.56" y1="-863.26" x2="-1805.6" y2="-863.26" width="0.1524" layer="91"/>
+<wire x1="-1805.6" y1="-863.26" x2="-1805.6" y2="-863.3" width="0.1524" layer="91"/>
+<junction x="-1805.6" y="-863.3"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="CHIP" gate="G$1" pin="2"/>
 <pinref part="C2" gate="C1" pin="2"/>
-<wire x1="-1744.22" y1="-863.26" x2="-1728.4" y2="-863.46" width="0.1524" layer="91"/>
-<wire x1="-1728.4" y1="-863.46" x2="-1728.4" y2="-863.5" width="0.1524" layer="91"/>
+<wire x1="-1744.22" y1="-863.26" x2="-1728.4" y2="-863.26" width="0.1524" layer="91"/>
+<wire x1="-1728.4" y1="-863.26" x2="-1728.4" y2="-863.1" width="0.1524" layer="91"/>
 <pinref part="C3" gate="C1" pin="2"/>
-<wire x1="-1728.4" y1="-863.5" x2="-1728.4" y2="-876.22" width="0.1524" layer="91"/>
-<wire x1="-1700.2" y1="-867.02" x2="-1700.2" y2="-863.5" width="0.1524" layer="91"/>
-<wire x1="-1700.2" y1="-863.5" x2="-1728.4" y2="-863.5" width="0.1524" layer="91"/>
-<junction x="-1728.4" y="-863.5"/>
+<wire x1="-1728.4" y1="-863.1" x2="-1728.4" y2="-876.22" width="0.1524" layer="91"/>
+<wire x1="-1700.2" y1="-867.02" x2="-1700.2" y2="-863.1" width="0.1524" layer="91"/>
+<wire x1="-1700.2" y1="-863.1" x2="-1728.4" y2="-863.1" width="0.1524" layer="91"/>
+<junction x="-1728.4" y="-863.1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="-1687.04" y1="-863.14" x2="-1700.3" y2="-863.14" width="0.1524" layer="91"/>
+<wire x1="-1700.3" y1="-863.14" x2="-1700.2" y2="-863.1" width="0.1524" layer="91"/>
+<junction x="-1700.2" y="-863.1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -235,25 +388,31 @@
 <wire x1="-1700.2" y1="-879.72" x2="-1700.2" y2="-884.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="CHIP" gate="G$1" pin="3"/>
-<wire x1="-1744.22" y1="-870.88" x2="-1744.72" y2="-903.8" width="0.1524" layer="91"/>
-<wire x1="-1744.72" y1="-903.8" x2="-1728.4" y2="-903.8" width="0.1524" layer="91"/>
-<pinref part="C4" gate="C1" pin="1"/>
-<wire x1="-1728.4" y1="-903.8" x2="-1700.2" y2="-903.8" width="0.1524" layer="91"/>
-<wire x1="-1700.2" y1="-903.8" x2="-1700.2" y2="-897.22" width="0.1524" layer="91"/>
-<pinref part="C2" gate="C1" pin="1"/>
-<wire x1="-1728.4" y1="-888.92" x2="-1728.4" y2="-903.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="CHIP" gate="G$1" pin="4"/>
-<wire x1="-1779.78" y1="-870.88" x2="-1780.48" y2="-903.8" width="0.1524" layer="91"/>
-<wire x1="-1780.48" y1="-903.8" x2="-1805.8" y2="-903.8" width="0.1524" layer="91"/>
+<wire x1="-1779.78" y1="-870.88" x2="-1779.78" y2="-903.9" width="0.1524" layer="91"/>
+<wire x1="-1779.78" y1="-903.9" x2="-1805.6" y2="-903.9" width="0.1524" layer="91"/>
 <pinref part="C1" gate="C1" pin="1"/>
-<wire x1="-1805.8" y1="-903.8" x2="-1805.6" y2="-890.92" width="0.1524" layer="91"/>
+<wire x1="-1805.6" y1="-903.9" x2="-1805.6" y2="-890.92" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-1818.7" y1="-905.46" x2="-1818.7" y2="-903.9" width="0.1524" layer="91"/>
+<wire x1="-1818.7" y1="-903.9" x2="-1805.6" y2="-903.9" width="0.1524" layer="91"/>
+<junction x="-1805.6" y="-903.9"/>
+</segment>
+<segment>
+<pinref part="CHIP" gate="G$1" pin="3"/>
+<wire x1="-1744.22" y1="-870.88" x2="-1744.12" y2="-903" width="0.1524" layer="91"/>
+<wire x1="-1744.12" y1="-903" x2="-1728.4" y2="-903.1" width="0.1524" layer="91"/>
+<pinref part="C4" gate="C1" pin="1"/>
+<wire x1="-1728.4" y1="-903.1" x2="-1700.2" y2="-903" width="0.1524" layer="91"/>
+<wire x1="-1700.2" y1="-903" x2="-1700.2" y2="-897.22" width="0.1524" layer="91"/>
+<pinref part="C2" gate="C1" pin="1"/>
+<wire x1="-1728.4" y1="-888.92" x2="-1728.4" y2="-903.1" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-1679.5" y1="-903.76" x2="-1679.5" y2="-903" width="0.1524" layer="91"/>
+<wire x1="-1679.5" y1="-903" x2="-1700.2" y2="-903" width="0.1524" layer="91"/>
+<junction x="-1700.2" y="-903"/>
 </segment>
 </net>
 </nets>
@@ -261,4 +420,16 @@
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

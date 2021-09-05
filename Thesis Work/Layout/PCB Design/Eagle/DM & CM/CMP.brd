@@ -59,14 +59,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="17.5" y1="12.2" x2="63.79" y2="12.2" width="0" layer="20"/>
-<wire x1="63.79" y1="12.2" x2="63.79" y2="31.58" width="0" layer="20"/>
-<wire x1="63.79" y1="31.58" x2="17.5" y2="31.58" width="0" layer="20"/>
-<wire x1="17.5" y1="31.58" x2="17.5" y2="12.2" width="0" layer="20"/>
-<wire x1="18.1" y1="30.7" x2="63.3" y2="30.7" width="0.1" layer="20"/>
-<wire x1="63.3" y1="30.7" x2="63.3" y2="12.8" width="0.1" layer="20"/>
-<wire x1="63.3" y1="12.8" x2="18.1" y2="12.8" width="0.1" layer="20"/>
-<wire x1="18.1" y1="12.8" x2="18.1" y2="30.7" width="0.1" layer="20"/>
+<wire x1="17" y1="30.7" x2="64.7" y2="30.7" width="0.1" layer="20"/>
+<wire x1="64.7" y1="30.7" x2="64.7" y2="12.8" width="0.1" layer="20"/>
+<wire x1="64.7" y1="12.8" x2="17" y2="12.8" width="0.1" layer="20"/>
+<wire x1="17" y1="12.8" x2="17" y2="30.7" width="0.1" layer="20"/>
 </plain>
 <libraries>
 <library name="CHOKE">
@@ -341,33 +337,33 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="35.31" y="14.64" size="1.778" layer="27"/>
 </element>
 <element name="C2" library="capa" package="FGJGFN" value="" x="47.5" y="22.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.24" y="23.435" size="0.5" layer="25"/>
+<attribute name="NAME" x="46.14" y="23.735" size="0.5" layer="25"/>
 <attribute name="VALUE" x="45.971" y="22.977" size="0.254" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="capa" package="FGJGFN" value="" x="51.2" y="24.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.86" y="24.865" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="49.46" y="24.865" size="0.5" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.729" y="23.823" size="0.254" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="capa" package="FGJGFN" value="" x="51.4" y="19.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.06" y="19.465" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="49.66" y="19.465" size="0.5" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.929" y="18.523" size="0.254" layer="27" rot="R90"/>
 </element>
-<element name="C1" library="capa" package="FGJGFN" value="" x="33" y="24.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.66" y="24.765" size="0.5" layer="25" rot="R180"/>
-<attribute name="VALUE" x="34.529" y="23.823" size="0.254" layer="27" rot="R90"/>
+<element name="C1" library="capa" package="FGJGFN" value="" x="31.6" y="24.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.06" y="26.265" size="0.5" layer="25" rot="R180"/>
+<attribute name="VALUE" x="33.129" y="23.823" size="0.254" layer="27" rot="R90"/>
 </element>
-<element name="J1" library="SMA" package="SAMTEC_SMA-J-P-H-ST-EM1" value="SMA-J-P-H-ST-EM1" x="21" y="22.4" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Samtec" x="21" y="22.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="3.675mm" x="21" y="22.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="19.68395" y="26.43466875" size="1.27" layer="25"/>
-<attribute name="PARTREV" value="G" x="21" y="22.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="STANDARD" value="Manufacturer Recommendations" x="21" y="22.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="7.9973" y="27.000709375" size="0.7" layer="27" rot="R270"/>
+<element name="J1" library="SMA" package="SAMTEC_SMA-J-P-H-ST-EM1" value="SMA-J-P-H-ST-EM1" x="21.4" y="22.6" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Samtec" x="21.4" y="22.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="3.675mm" x="21.4" y="22.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20.48395" y="28.43466875" size="1.27" layer="25"/>
+<attribute name="PARTREV" value="G" x="21.4" y="22.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations" x="21.4" y="22.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="8.3973" y="27.200709375" size="0.7" layer="27" rot="R270"/>
 </element>
 <element name="J2" library="SMA" package="SAMTEC_SMA-J-P-H-ST-EM1" value="SMA-J-P-H-ST-EM1" x="60.3" y="22.1" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Samtec" x="60.3" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MAXIMUM_PACKAGE_HEIGHT" value="3.675mm" x="60.3" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="60.71605" y="17.76533125" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="60.31605" y="29.16533125" size="1.27" layer="25" rot="R180"/>
 <attribute name="PARTREV" value="G" x="60.3" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="STANDARD" value="Manufacturer Recommendations" x="60.3" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="73.3027" y="18.699290625" size="0.7" layer="27" rot="R90"/>
@@ -378,79 +374,56 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C1" pad="1"/>
-<polygon width="0.1" layer="16">
-<vertex x="18.9" y="30.7"/>
-<vertex x="62.6" y="30.7"/>
-<vertex x="62.6" y="12.8"/>
-<vertex x="18.9" y="12.8"/>
+<wire x1="31.4" y1="23.8" x2="31.6" y2="23.8" width="0.2" layer="1"/>
+<polygon width="0.38" layer="1" thermals="no">
+<vertex x="49.6" y="23.8"/>
+<vertex x="53" y="23.8"/>
+<vertex x="53" y="20"/>
+<vertex x="49.6" y="20"/>
 </polygon>
-<via x="33.5" y="23.1" extent="1-16" drill="0.35"/>
-<via x="50.2" y="21.9" extent="1-16" drill="0.35"/>
-<wire x1="32.8" y1="23.8" x2="33" y2="23.8" width="0.2" layer="1"/>
-<polygon width="0.2" layer="1" thermals="no">
-<vertex x="49.6" y="24.1"/>
-<vertex x="54" y="24.1"/>
-<vertex x="54" y="19.7"/>
-<vertex x="49.6" y="19.7"/>
-</polygon>
-<via x="51.2" y="21.9" extent="1-16" drill="0.35"/>
-<via x="52.2" y="21.9" extent="1-16" drill="0.35"/>
-<via x="52.8" y="22.7" extent="1-16" drill="0.35"/>
-<via x="52.9" y="21.3" extent="1-16" drill="0.35"/>
-<polygon width="0.2" layer="1" thermals="no">
-<vertex x="34" y="23.8"/>
-<vertex x="26.4" y="23.8"/>
-<vertex x="26.4" y="20.3"/>
-<vertex x="34" y="20.3"/>
-</polygon>
-<via x="32.5" y="23.1" extent="1-16" drill="0.35"/>
-<via x="31.6" y="23.3" extent="1-16" drill="0.35"/>
-<via x="33.4" y="22.1" extent="1-16" drill="0.35"/>
-<via x="32.4" y="22.2" extent="1-16" drill="0.35"/>
-<via x="31.4" y="22.3" extent="1-16" drill="0.35"/>
-<via x="30.6" y="23.3" extent="1-16" drill="0.35"/>
-<polygon width="0.38" layer="1">
-<vertex x="19.1" y="26.1"/>
-<vertex x="23.6" y="26.1"/>
-<vertex x="23.6" y="24.4"/>
-<vertex x="19.1" y="24.4"/>
+<polygon width="0.38" layer="1" thermals="no">
+<vertex x="33" y="23.8"/>
+<vertex x="27.4" y="23.8"/>
+<vertex x="27.4" y="20.6"/>
+<vertex x="33" y="20.6"/>
 </polygon>
 <polygon width="0.38" layer="1">
-<vertex x="19.2" y="20.4"/>
-<vertex x="23.6" y="20.4"/>
-<vertex x="23.6" y="18.7"/>
-<vertex x="19.2" y="18.7"/>
+<vertex x="19.5" y="27.5"/>
+<vertex x="23.8" y="27.5"/>
+<vertex x="23.8" y="24.7"/>
+<vertex x="19.5" y="24.7"/>
 </polygon>
 <polygon width="0.38" layer="1">
-<vertex x="62.2" y="24.1"/>
+<vertex x="19.6" y="20.5"/>
+<vertex x="23.8" y="20.5"/>
+<vertex x="23.8" y="17.7"/>
+<vertex x="19.6" y="17.7"/>
+</polygon>
+<polygon width="0.38" layer="1">
+<vertex x="62.1" y="24.1"/>
 <vertex x="57.9" y="24.1"/>
-<vertex x="57.9" y="25.8"/>
-<vertex x="62.5" y="25.8"/>
-<vertex x="62.5" y="24.1"/>
-<vertex x="62.3" y="24.1"/>
+<vertex x="57.9" y="26.9"/>
+<vertex x="62.1" y="26.9"/>
 </polygon>
 <polygon width="0.38" layer="1">
-<vertex x="62.2" y="20.3"/>
-<vertex x="57.8" y="20.3"/>
-<vertex x="57.8" y="18.3"/>
-<vertex x="62.2" y="18.3"/>
-<vertex x="62.2" y="18.5"/>
-<vertex x="62.2" y="20.1"/>
+<vertex x="62.1" y="20.3"/>
+<vertex x="57.9" y="20.3"/>
+<vertex x="57.9" y="17.4"/>
+<vertex x="62.1" y="17.4"/>
 </polygon>
-<wire x1="51.2" y1="21.9" x2="51.2" y2="23.8" width="0" layer="19" extent="1-1"/>
-<wire x1="52.2" y1="21.9" x2="51.2" y2="21.9" width="0" layer="19" extent="1-1"/>
-<wire x1="52.9" y1="21.3" x2="52.2" y2="21.9" width="0" layer="19" extent="1-1"/>
-<wire x1="52.8" y1="22.7" x2="52.2" y2="21.9" width="0" layer="19" extent="1-1"/>
-<wire x1="50.2" y1="21.9" x2="51.2" y2="21.9" width="0" layer="19" extent="1-1"/>
-<wire x1="51.4" y1="20" x2="51.2" y2="21.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33.5" y1="23.1" x2="50.2" y2="21.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33" y1="23.8" x2="33.5" y2="23.1" width="0" layer="19" extent="1-1"/>
-<wire x1="32.5" y1="23.1" x2="32.8" y2="23.8" width="0" layer="19" extent="1-1"/>
-<wire x1="32.4" y1="22.2" x2="32.5" y2="23.1" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6" y1="23.3" x2="32.5" y2="23.1" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4" y1="22.1" x2="33.5" y2="23.1" width="0" layer="19" extent="1-1"/>
-<wire x1="30.6" y1="23.3" x2="31.6" y2="23.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.4" y1="22.3" x2="32.4" y2="22.2" width="0" layer="19" extent="1-1"/>
+<via x="28.3" y="22.2" extent="1-16" drill="0.35"/>
+<via x="31.4" y="22.2" extent="1-16" drill="0.35"/>
+<via x="51.3" y="21.9" extent="1-16" drill="0.35"/>
+<via x="21.9" y="26.9" extent="1-16" drill="0.35"/>
+<via x="21.8" y="18.3" extent="1-16" drill="0.35"/>
+<via x="60" y="17.9" extent="1-16" drill="0.35"/>
+<via x="60" y="26.4" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="16">
+<vertex x="17" y="30.7"/>
+<vertex x="64.7" y="30.7"/>
+<vertex x="64.7" y="12.8"/>
+<vertex x="17" y="12.8"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="C2" pad="2"/>
@@ -484,17 +457,16 @@ design rules under a new name.</description>
 <contactref element="CHIP" pad="4"/>
 <contactref element="CHIP" pad="1"/>
 <contactref element="C1" pad="2"/>
-<wire x1="36.01" y1="19.14" x2="26.16" y2="19.14" width="0.5" layer="1"/>
-<wire x1="26.16" y1="19.14" x2="24.7" y2="20.6" width="0.5" layer="1"/>
-<wire x1="24.7" y1="20.6" x2="24.7" y2="22.3" width="0.5" layer="1"/>
-<wire x1="24.7" y1="22.3" x2="24.7" y2="23.9" width="0.5" layer="1"/>
-<wire x1="26.14" y1="25.34" x2="36.01" y2="25.34" width="0.5" layer="1"/>
-<wire x1="24.7" y1="23.9" x2="26.14" y2="25.34" width="0.5" layer="1"/>
+<wire x1="36.01" y1="19.14" x2="27.56" y2="19.14" width="0.5" layer="1"/>
+<wire x1="27.56" y1="19.14" x2="26.2" y2="20.5" width="0.5" layer="1"/>
+<wire x1="26.2" y1="20.5" x2="26.2" y2="22.2" width="0.5" layer="1"/>
+<wire x1="26.2" y1="22.2" x2="26.2" y2="24" width="0.5" layer="1"/>
+<wire x1="27.54" y1="25.34" x2="36.01" y2="25.34" width="0.5" layer="1"/>
+<wire x1="26.2" y1="24" x2="27.54" y2="25.34" width="0.5" layer="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="24.7" y1="22.3" x2="24.6" y2="22.4" width="0.38" layer="1"/>
-<wire x1="24.6" y1="22.4" x2="23.156" y2="22.4" width="0.38" layer="1"/>
-<wire x1="36.01" y1="25.34" x2="33" y2="25.3" width="0" layer="19" extent="1-1"/>
-<wire x1="21" y1="22.4" x2="23.156" y2="22.4" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2" y1="22.2" x2="21.856" y2="22.2" width="0.38" layer="1"/>
+<wire x1="36.01" y1="25.34" x2="31.6" y2="25.3" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="22.6" x2="21.856" y2="22.2" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
