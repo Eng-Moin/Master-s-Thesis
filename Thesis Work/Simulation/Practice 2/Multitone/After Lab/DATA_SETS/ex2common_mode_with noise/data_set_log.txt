@@ -1,9 +1,0 @@
-[21744]  Error log for : Noise with filter.DS14.dsf
-	[21744]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[21744]	Unable to acquire file lock for the data set
-	[21744]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[21744]	Unable to acquire file lock for the data set
-	[21744]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[21744]	Unable to acquire file lock for the data set
-	[21744]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[21744]	Unable to acquire file lock for the data set
