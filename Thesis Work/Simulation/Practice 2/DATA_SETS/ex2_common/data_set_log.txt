@@ -1,0 +1,5 @@
+[18620]  Error log for : power.DS19.dsf
+	[18620]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[18620]	Unable to acquire file lock for the data set
+[17600]  Error log for : TD_DMP_Multi.DS237.dsf
+	[17600]	Data set file is missing or empty : C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Practice 2\DATA_SETS\ex2_common\TD_DMP_Multi.DS237.dsf : Lock acquired by 'data set load'	Process=C:\Program Files (x86)\AWR\AWRDE\15\MWOffice.exe (No such file or directory)
