@@ -1,5 +1,0 @@
-[4832]  Error log for : Simulated.DS487.dsf
-	[4832]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[4832]	Unable to acquire file lock for the data set
-	[4832]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
-	[4832]	Unable to acquire file lock for the data set

@@ -1,0 +1,9 @@
+	[12508]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[12508]	Unable to acquire file lock for the data set
+	[12508]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[12508]	Unable to acquire file lock for the data set
+	[12508]	Data set file is missing or empty : C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Practice 2\DATA_SETS\ex2_common(new)\power.DS35.dsf : Lock acquired by 'DataSet_ReaderLock'	Process=C:\Program Files (x86)\AWR\AWRDE\15\MWOffice.exe {KDataSetReaderLock,LoadSimDataSet} (No such file or directory)
+	[12508]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[12508]	Unable to acquire file lock for the data set
+	[12508]	Data set file is missing or empty : C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Practice 2\DATA_SETS\ex2_common(new)\power.DS35.dsf : Lock acquired by 'DataSet_ReaderLock'	Process=C:\Program Files (x86)\AWR\AWRDE\15\MWOffice.exe {KDataSetReaderLock,LoadSimDataSet} (No such file or directory)
+	[12508]	Data set file is missing or empty : C:\Users\Moin\OneDrive\Documents\GitHub\Master-s-Thesis\Thesis Work\Simulation\Practice 2\DATA_SETS\ex2_common(new)\power.DS35.dsf : Lock acquired by 'DataSet_ReaderLock'	Process=C:\Program Files (x86)\AWR\AWRDE\15\MWOffice.exe {KDataSetReaderLock,LoadSimDataSet} (No such file or directory)
